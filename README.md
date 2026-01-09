@@ -53,39 +53,17 @@ Datafication.AdoConnector is a universal database connector library that bridges
 
 ## Installation
 
-> **Note**: Datafication.AdoConnector is currently in pre-release. NuGet package availability on nuget.org is pending signing certificate approval.
+> **Note**: Datafication.AdoConnector is currently in pre-release. The packages are now available on nuget.org.
+
+```bash
+dotnet add package Datafication.AdoConnector --version 1.0.1
+```
 
 **Running the Samples:**
-
-The `samples` directory includes pre-built packages and a `NuGet.config` that references them. The sample projects are ready to run as-is:
 
 ```bash
 cd samples/AdoBasicQuery
 dotnet run
-```
-
-**Using the SDK in Your Own Project:**
-
-To use the SDK in your own project, copy the `NuGet.config` and `packages` directory from `samples` into your project directory, then add the package reference:
-
-```bash
-dotnet add package Datafication.AdoConnector
-```
-
-**After Repository Updates:**
-
-If the repository is updated with new package versions, clear your local NuGet cache and rebuild:
-
-```bash
-dotnet nuget locals all --clear
-dotnet restore
-dotnet build
-```
-
-**Once Available on NuGet.org:**
-
-```bash
-dotnet add package Datafication.AdoConnector
 ```
 
 ## Provider Setup
