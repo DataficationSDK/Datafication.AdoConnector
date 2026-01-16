@@ -1,5 +1,7 @@
 # Datafication.AdoConnector
 
+[![NuGet](https://img.shields.io/nuget/v/Datafication.AdoConnector.svg)](https://www.nuget.org/packages/Datafication.AdoConnector)
+
 An ADO.NET database connector for .NET that provides seamless integration between relational databases and the Datafication.Core DataBlock API.
 
 ## Description
