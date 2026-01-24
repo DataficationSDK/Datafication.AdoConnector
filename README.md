@@ -58,7 +58,7 @@ Datafication.AdoConnector is a universal database connector library that bridges
 > **Note**: Datafication.AdoConnector is currently in pre-release. The packages are now available on nuget.org.
 
 ```bash
-dotnet add package Datafication.AdoConnector --version 1.0.8
+dotnet add package Datafication.AdoConnector --version 1.0.9
 ```
 
 **Running the Samples:**
@@ -475,6 +475,8 @@ var config = new AdoConnectorConfiguration
 ```
 
 ## API Reference
+
+For complete API documentation, see the [Datafication.Connectors.AdoConnector API Reference](https://datafication.co/help/api/reference/Datafication.Connectors.AdoConnector.html).
 
 ### Core Classes
 
