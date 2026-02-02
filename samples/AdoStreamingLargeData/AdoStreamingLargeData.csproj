@@ -7,9 +7,9 @@
     <RollForward>LatestMajor</RollForward>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Datafication.Core" Version="1.0.10" />
-    <PackageReference Include="Datafication.AdoConnector" Version="1.0.10" />
-    <PackageReference Include="Datafication.Storage.Velocity" Version="1.0.10" />
+    <PackageReference Include="Datafication.Core" Version="1.0.11" />
+    <PackageReference Include="Datafication.AdoConnector" Version="1.0.11" />
+    <PackageReference Include="Datafication.Storage.Velocity" Version="1.0.11" />
     <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.0" />
   </ItemGroup>
 </Project>
